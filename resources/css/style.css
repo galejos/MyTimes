@@ -23,12 +23,6 @@ nav span {
   padding: 20px 10px;
 }
 
-/*Temporary*/
-
-/* div {
-  border: 1px solid black;
-} */
-
 /* News Story Stylings */
 
 .stories {
@@ -50,6 +44,8 @@ nav span {
 .image-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   font-weight: bold;
   font-size: 30px;
@@ -93,7 +89,7 @@ header nav {
 
 .content {
   display: flex;
-  width: 1232px;
+  width: 1300px;
   margin: auto;
   padding-top: 30px;
   padding-bottom: 60px;
@@ -113,7 +109,7 @@ header nav {
 
 .lead-story .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-  text-align: left;
+  text-align: center;
   font-size: 40px;
 }
 
@@ -145,4 +141,49 @@ header nav {
 
 img.cookie {
   height: 240px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bite {
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+  color: DimGray;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+  height: 400px;
+}
+
+footer .title {
+ display: inline-block;
+ font-family: "Georgia", serif;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ border-right: 2px solid white;
+ padding-right: 25px;
+}
+
+footer nav {
+ display: inline-block;
+ padding-left: 15px;
 }
